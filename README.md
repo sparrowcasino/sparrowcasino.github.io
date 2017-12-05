@@ -9,7 +9,7 @@ SparrowCasino offers BlackJack and the other classic poker games. Add our chatbo
 ## Chatbots
   - [SparrowPoker_BTC_bot] - Use Bitcoin
   - [SparrowPoker_LTC_bot] - Use Litecoin
-  - SparrowPoker_WAVES_bot - coming soon
+  - SparrowPoker_DASH_bot - coming soon
   - SparrowPoker_XMR_bot - coming soon
 
 ## Commands
