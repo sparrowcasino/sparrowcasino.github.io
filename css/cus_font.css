@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "sparrowcasino";
+  src:url("../fonts/sparrowcasino.eot");
+  src:url("../fonts/sparrowcasino.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/sparrowcasino.woff") format("woff"),
+    url("../fonts/sparrowcasino.ttf") format("truetype"),
+    url("../fonts/sparrowcasino.svg#sparrowcasino") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "sparrowcasino" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fs-"]:before,
+[class*=" fs-"]:before {
+  font-family: "sparrowcasino" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-waves:before {
+  content: "\61";
+}
+.fs-ltc:before {
+  content: "\62";
+}
+.fs-btc:before {
+  content: "\63";
+}
+.fs-logo:before {
+  content: "\64";
+}
