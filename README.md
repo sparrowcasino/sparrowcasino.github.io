@@ -9,8 +9,6 @@ SparrowCasino offers BlackJack and the other classic poker games. Add our chatbo
 ## Chatbots
   - [SparrowPoker_BTC_bot] - Use Bitcoin
   - [SparrowPoker_LTC_bot] - Use Litecoin
-  - SparrowPoker_DASH_bot - coming soon
-  - SparrowPoker_XMR_bot - coming soon
 
 ## Commands
   Here are commands you can use in the chatbot:
@@ -26,6 +24,7 @@ SparrowCasino offers BlackJack and the other classic poker games. Add our chatbo
     - /bank_notes
     - /bank_secure
   - /games - A list of all the games
+  - /bookmark - List all our bots, tap to switch
   - /faucet - Gives you Bitcoins for free to play games
   - /issue - Contact with the Admin-Center
   - /keyboard_on - Open function keyboard
@@ -52,8 +51,8 @@ SparrowCasino offers BlackJack and the other classic poker games. Add our chatbo
   - **How to contact us**
     You can contact the Admin-Center via the /issue command in the chatbot and you will receive the reply within 24 hours.
   - **Our roadmap(not ordered)**
-    - support more cryptocurrencies
-    - more games
+    - ~~support more cryptocurrencies~~
+    - ~~more games~~
     - an open source & more convenient **Provably Fair** verifying tool
     - affiliate program
  
