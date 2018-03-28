@@ -1,5 +1,5 @@
 # About SparrowCasino
-SparrowCasino offers BlackJack and the other classic poker games. Add our chatbot to your Telegram Messenger contact to enjoy it immediately.
+SparrowCasino offers poker and dice games through the Telegram Messenger. Add our chatbots to your Telegram Messenger contact to enjoy games immediately.
 
 ## Features
   - Play Private: In addition to using encrypted currencies as chips, we have a variety of mechanisms to protect your privacy.
@@ -7,30 +7,34 @@ SparrowCasino offers BlackJack and the other classic poker games. Add our chatbo
   - Play Fair: **Provably Fair** is one of the basic components of the modern online gambling, to ensure the fairness of games. Every round, the system always provides information that can be verified.
 
 ## Chatbots
-  - [SparrowPoker_BTC_bot] - Use Bitcoin
-  - [SparrowPoker_LTC_bot] - Use Litecoin
+  - [SparrowPoker_BTC_bot]
+  - [SparrowPoker_LTC_bot]
+  - [SparrowDice_BTC_bot]
+  - [SparrowDice_LTC_bot]
 
 ## Commands
   Here are commands you can use in the chatbot:
+  (commands of each kind of chatbots are slightly different, please use /help to know details)  
   - /help - List all commands & version info.
+  - /profile - [reset session], [set special jp lucky], [randomize], [provably fair data] (Dice only)
   - /recall - Bring back the game dialogue at any time.
   - /settings - Shortcuts to set [nickname], [language] and [betting amount]
     - /setting_nick
     - /setting_lang
-    - /setting_wagers
+    - /setting_wagers (Poker only)
   - /bank - Shortcuts to [deposit], [withdraw], [note], [secure] and display ongoing transactions.
     - /bank_deposit
     - /bank_withdraw
     - /bank_notes
-    - /bank_secure
-  - /games - A list of all the games
+    - /bank_secure (Poker only)
+  - /games - A list of all the games (Poker only)
   - /bookmark - List all our bots, tap to switch
   - /faucet - Gives you Bitcoins for free to play games
   - /issue - Contact with the Admin-Center
   - /keyboard_on - Open function keyboard
   - /keyboard_off - Close function keyboard
   - /provably - Information that used to verify for game fairness
-  - /provably_help - How *Provably Fair* works
+  - /provably_help, /fairness - How *Provably Fair* works
   - /competition - Details on competition events
   - /rate - Shows the exchange rate for USD
 
@@ -50,13 +54,10 @@ SparrowCasino offers BlackJack and the other classic poker games. Add our chatbo
     4. The initial withdrawal will be done manually, which will delay you a little time. Deduct the situation of network traffic congestion, will be completed within 24 hours at the latest, but generally, less than 10 minutes.
   - **How to contact us**
     You can contact the Admin-Center via the /issue command in the chatbot and you will receive the reply within 24 hours.
-  - **Our roadmap(not ordered)**
-    - ~~support more cryptocurrencies~~
-    - ~~more games~~
-    - an open source & more convenient **Provably Fair** verifying tool
-    - affiliate program
  
 [//]: # (Remark)
 
 [SparrowPoker_BTC_bot]: <https://t.me/SparrowPoker_BTC_bot>
 [SparrowPoker_LTC_bot]: <https://t.me/SparrowPoker_LTC_bot>
+[SparrowDice_BTC_bot]: <https://t.me/SparrowDice_BTC_bot>
+[SparrowDice_LTC_bot]: <https://t.me/SparrowDice_LTC_bot>
