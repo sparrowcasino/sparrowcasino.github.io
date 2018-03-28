@@ -14,7 +14,9 @@ SparrowCasino offers poker and dice games through the Telegram Messenger. Add ou
 
 ## Commands
   Here are commands you can use in the chatbot:
-  (commands of each kind of chatbots are slightly different, please use /help to know details)  
+  
+  (commands of each kind of chatbots are slightly different, please use /help to know details)
+  
   - /help - List all commands & version info.
   - /profile - [reset session], [set special jp lucky], [randomize], [provably fair data] (Dice only)
   - /recall - Bring back the game dialogue at any time.
