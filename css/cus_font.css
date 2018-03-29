@@ -11,6 +11,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'sparrowicon';
+  src:  url('../fonts/sparrowicon.eot?gr9fx9');
+  src:  url('../fonts/sparrowicon.eot?gr9fx9#iefix') format('embedded-opentype'),
+    url('../fonts/sparrowicon.ttf?gr9fx9') format('truetype'),
+    url('../fonts/sparrowicon.woff?gr9fx9') format('woff'),
+    url('../fonts/sparrowicon.svg?gr9fx9#sparrowicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 [data-icon]:before {
   font-family: "sparrowcasino" !important;
   content: attr(data-icon);
@@ -37,6 +48,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[class^="spricon-"], [class*=" spricon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sparrowicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .fs-waves:before {
   content: "\61";
 }
@@ -48,4 +74,20 @@
 }
 .fs-logo:before {
   content: "\64";
+}
+
+.spricon-btc_dice:before {
+  content: "\e900";
+}
+.spricon-ltc_dice:before {
+  content: "\e901";
+}
+.spricon-btc_poker:before {
+  content: "\e902";
+}
+.spricon-ltc_poker:before {
+  content: "\e903";
+}
+.spricon-logo:before {
+  content: "\e904";
 }
